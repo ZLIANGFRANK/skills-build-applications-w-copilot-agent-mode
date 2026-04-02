@@ -150,6 +150,7 @@ REST_FRAMEWORK = {
 # Third-party and local apps for OctoFit
 INSTALLED_APPS += [
     'rest_framework',
+    'rest_framework.authtoken',
     'corsheaders',
     'dj_rest_auth',
     'allauth',
